@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.siteContainer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.8rem;
+  align-items: center;
+}

@@ -9,6 +9,9 @@ export default {
       colors: {
         "siteOrange": "#ef7360",
         "siteBgColor": "#131728"
+      },
+      fontFamily: {
+        poppins: ["poppins", "sans-serif"]
       }
     },
   },

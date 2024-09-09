@@ -4,9 +4,9 @@ const Footer = () => {
         <div className='siteContainer flex flex-col md:flex-row justify-between'>
             <div className="flex flex-col">
                 <ul className="flex flex-col text-xl font-extrabold items-center">
-                    <li className="mb-4"><a href="">Home</a></li>
-                    <li className="mb-4"><a href="">Projects</a></li>
-                    <li><a href="">About</a></li>
+                    <li className="mb-4"><a href="/">Home</a></li>
+                    <li className="mb-4"><a href="/projects">Projects</a></li>
+                    <li><a href="/about">My Story</a></li>
                 </ul>
             </div>
             <div className="flex flex-col mt-8 md:mt-0">
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-row items-center mt-8 md:mt-0">
                 <div className="text-xl font-extrabold w-32">
-                    <img src="public/mb_logo_transparent.png" alt="" />
+                    <img src="/mb_logo_transparent.png" alt="" />
                 </div>
             </div>
         </div>

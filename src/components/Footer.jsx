@@ -10,7 +10,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="flex flex-col mt-8 md:mt-0">
-                <a href="https://github.com/mb8504">
+                <a href="https://github.com/mb8504" target="_blank">
                     <img className="w-9" src="/github-mark-white.png" alt="" />
                 </a>
                 <a href="mailto:mbergprogramming@gmail.com">
@@ -18,14 +18,14 @@ const Footer = () => {
                 </a>
             </div>
             <div className="flex flex-row items-center mt-8 md:mt-0">
-                <div className="text-xl font-extrabold w-32">
+                <a href="/" className="text-xl font-extrabold w-32">
                     <img src="/mb_logo_transparent.png" alt="" />
-                </div>
+                </a>
             </div>
         </div>
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
             © 2024 Mike Berg
-        </div>
+        </div> */}
     </section>
   )
 }

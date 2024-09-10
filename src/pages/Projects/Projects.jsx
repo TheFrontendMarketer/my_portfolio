@@ -7,7 +7,7 @@ const Projects = () => {
         <Navbar/>
         <section className="bg-siteBgColor text-slate-300 font-poppins">
             <div className="siteContainer mb-20">
-                <h1 className="text-6xl md:text-7xl text-[#7691ff]">Projects</h1>
+                <h1 className="text-6xl md:text-7xl pt-10 text-[#7691ff]">Projects</h1>
                 <div className="flex flex-col md:flex-row justify-center mt-20">
                     <div className="w-72">
                         <img src="/locals.png" alt="" />

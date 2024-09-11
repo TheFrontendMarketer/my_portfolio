@@ -5,8 +5,9 @@ const Footer = () => {
             <div className="flex flex-col">
                 <ul className="flex flex-col text-xl font-extrabold items-center">
                     <li className="mb-4"><a href="/">Home</a></li>
-                    <li className="mb-4"><a href="/projects">Projects</a></li>
-                    <li><a href="/about">My Story</a></li>
+                    <li className="mb-4"><a href="projects">Projects</a></li>
+                    <li className="mb-4"><a href="about">My Story</a></li>
+                    <li><a href="technologies">Technologies</a></li>
                 </ul>
             </div>
             <div className="flex flex-col mt-8 md:mt-0">
@@ -23,9 +24,6 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-        {/* <div className="flex justify-center mt-8">
-            © 2024 Mike Berg
-        </div> */}
     </section>
   )
 }

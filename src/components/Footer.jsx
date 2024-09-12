@@ -15,7 +15,7 @@ const Footer = () => {
                     <img className="w-9" src="/WebDevIcons/github-mark-white.png" alt="" />
                 </a>
                 <a href="mailto:mbergprogramming@gmail.com">
-                    <img className="w-9 mt-8" src="/email_white.png" alt="mbergprogramming@gmail.com"/>
+                    <img className="w-9 mt-8" src="/SiteImages/email_white.png" alt="mbergprogramming@gmail.com"/>
                 </a>
             </div>
             <div className="flex flex-row items-center mt-8 md:mt-0">

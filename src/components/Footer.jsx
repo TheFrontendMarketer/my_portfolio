@@ -6,12 +6,13 @@ const Footer = () => {
                 <ul className="flex flex-col text-xl font-extrabold items-center">
                     <li className="mb-4"><a href="/">Home</a></li>
                     <li className="mb-4"><a href="/projects">Projects</a></li>
-                    <li><a href="/about">My Story</a></li>
+                    <li className="mb-4"><a href="about">My Story</a></li>
+                    <li><a href="technologies">Technologies</a></li>
                 </ul>
             </div>
             <div className="flex flex-col mt-8 md:mt-0">
                 <a href="https://github.com/mb8504" target="_blank">
-                    <img className="w-9" src="/github-mark-white.png" alt="" />
+                    <img className="w-9" src="/WebDevIcons/github-mark-white.png" alt="" />
                 </a>
                 <a href="mailto:mbergprogramming@gmail.com">
                     <img className="w-9 mt-8" src="/email_white.png" alt="mbergprogramming@gmail.com"/>
@@ -23,9 +24,6 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-        {/* <div className="flex justify-center mt-8">
-            © 2024 Mike Berg
-        </div> */}
     </section>
   )
 }

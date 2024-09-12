@@ -16,9 +16,8 @@ const Navbar = () => {
             <div id='desktopNav' className='hidden md:contents'>
                 <ul className="flex flex-row mt-8 mb-8">
                     <li><a href="/">Home</a></li>
-                    <li className="ml-4 md:ml-16"><a href="projects">Projects</a></li>
-                    <li className="ml-4 md:ml-16"><a href="about">My Story</a></li>
-                    <li className="ml-4 md:ml-16"><a href="technologies">Technologies</a></li>
+                    <li className="ml-4 md:ml-16"><a href="/projects">Projects</a></li>
+                    <li className="ml-4 md:ml-16"><a href="/about">My Story</a></li>
                 </ul>
             </div>
 
@@ -33,7 +32,6 @@ const Navbar = () => {
                 <li className='pl-4 pt-8'><a href="/">Home</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="projects">Projects</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="about">My Story</a></li>
-                <li className='pl-4 pt-8 border-b-2'><a href="technologies">Technologies</a></li>
             </ul>
         </div> 
     </section>

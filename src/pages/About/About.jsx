@@ -10,7 +10,7 @@ const About = () => {
                 <h1 className="text-6xl md:text-7xl pt-10 text-siteOrange">From Marketer to Developer</h1>
                 <div className="flex flex-col-reverse md:flex-row md:items-center">
                     <p className="text-xl mt-10 md:w-[40rem] leading-8">
-                        My adventure into web development began while I was working as a digital marketer. One day, I learned our company was using Python and was immediately intrigued. What was it? How was it being used? Where can I learn Python? As I started exploring the world of programming, I discovered its incredible power for crafting websites. I dove headfirst into Python/Django and soon found myself building small web projects. It started my journey of discovery and creation.
+                        My adventure into web development began while I was working as a digital marketer. One day, I learned our company was using Python and was immediately intrigued. What was it? How was it being used? Where can I learn Python? As I started exploring the world of programming, I discovered its incredible power for crafting websites. It was like finding the thing I was meant to do all along! I dove headfirst into Python/Django and soon found myself building a small web project. It started my journey of discovery and creation.
                     </p>
                     <div className="flex justify-center">
                         <img className="w-[10rem] md:ml-20 mt-8 md:mt-0" src="/python_logo.png" alt="" />
@@ -24,12 +24,12 @@ const About = () => {
                 </div>
                 <div className="flex flex-col-reverse md:flex-row mt-20 items-center">
                     <p className="text-xl leading-8">
-                        In 2021, I decided to get back into full-time work and found a great opportunity with my current company. In 2023, I decided it was time to dive back into coding. I wanted to focus all my free time to learning about front-end web devlopment. Since then, I've been on a journey, building personal projects, freelancing, and sharing my passion for front-end web development with the world through content creation. 
+                        I was incredibly lucky to find a fantastic job with my current company, and I'm so grateful for the amazing team I work with. In 2023, I decided it was time to dive back into coding. I wanted to focus all my free time to learning about front-end web devlopment. Since then, I've been on a journey, building personal projects, freelancing, and sharing my passion for front-end web development with the world through content creation. 
                     </p>
                     <img className="w-64 md:ml-20 mb-8 md:mb0" src="/white_dev_icon.png" alt="" />
                 </div>
                 <p className="text-xl leading-8 mt-20">
-                    Every day, I'm excited to continue my journey, honing my skills and bringing my unique perspective as a digital marketer to the world of web development. The future is bright, and I can't wait to see where this adventure takes me next!
+                    Every day, I'm excited to continue my journey, honing my skills and bringing my unique perspective/skills as a digital marketer to the world of web development. The future is bright, and I can't wait to see where this adventure takes me!
                 </p>
             </div>
         </section>

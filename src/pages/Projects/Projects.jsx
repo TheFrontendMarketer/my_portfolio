@@ -13,6 +13,36 @@ const Projects = () => {
           <div className="flex justify-center">
             <div className="flex flex-col md:flex-row justify-center mt-20">
               <div className="w-72">
+                <img src="/SiteImages/tfm_logo.png" alt="" />
+              </div>
+              <div className="bg-white w-72 md:w-96">
+                <h2 className="text-siteOrange font-bold text-center mt-4 mb-2 text-2xl">
+                  The Frontend Marketer
+                </h2>
+                <p className="text-black ml-6 mr-6 text-center">
+                  A custom blog made with Astro, Tailwind CSS, and Markdown. The
+                  site is hosted on Netlify and uses a custom domain.
+                  <br />
+                  <br />
+                </p>
+                <a
+                  className="flex flex-row justify-center items-center border-2 border-[#7691ff] rounded ml-8 mr-8 mt-4"
+                  href="https://thefrontendmarketer.com/"
+                  target="_blank"
+                >
+                  <img
+                    className="w-10 pt-1 pb-1"
+                    src="/SiteImages/Untitled design (36).webp"
+                    alt=""
+                  />
+                  <p className="text-[#7691ff] ml-3">View Site</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <div className="flex flex-col md:flex-row justify-center mt-20">
+              <div className="w-72">
                 <img src="/SiteImages/locals.webp" alt="" />
               </div>
               <div className="bg-white w-72 md:w-96">
@@ -21,7 +51,7 @@ const Projects = () => {
                 </h2>
                 <p className="text-black ml-6 mr-6 text-center">
                   A custom designed local brewery website built with Vite,
-                  React, TailwindCSS, and GSAP.
+                  React, Tailwind CSS, and GSAP.
                 </p>
                 <a
                   className="flex flex-row justify-center items-center border-2 border-[#7691ff] rounded ml-8 mr-8 mt-4"
